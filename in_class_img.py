@@ -14,7 +14,7 @@ for i in range(img.size[0]):
         r += 255
         g += 0
         b += 0
-        pixmap[i,j] = (g,b,b)
+        pixmap[i,j] = (b,g+b,b)
     
 img.show()
-img.save("beach_filter.jpg")
+img.save("beach_filter2.jpg")
